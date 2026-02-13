@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Titan Fitness</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="nav-overlay"></div>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">Titan <span>Fitness</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="trainers.html">Trainers</a>
+        <a href="membership.html">Membership</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="reveal">Get In <span>Touch</span></h1>
+      <p class="reveal">Ready to start? Have questions? We're here to help you take the first step.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Form -->
+        <div class="reveal-left">
+          <h3 style="font-size:1.5rem; margin-bottom:24px;">Send Us a <span class="text-orange">Message</span></h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+            </div>
+            <div class="form-group">
+              <label for="interest">I'm Interested In</label>
+              <select id="interest" name="interest">
+                <option value="">Select an option</option>
+                <option value="free-trial">Free 7-Day Trial</option>
+                <option value="membership">Membership Info</option>
+                <option value="personal-training">Personal Training</option>
+                <option value="group-classes">Group Classes</option>
+                <option value="tour">Facility Tour</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us about your fitness goals..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Info -->
+        <div class="reveal-right">
+          <div class="contact-info-card">
+            <h4>📍 Location</h4>
+            <p>742 Iron Street, Suite 100<br>Downtown Fitness District<br>New York, NY 10001</p>
+          </div>
+          <div class="contact-info-card">
+            <h4>🕐 Hours</h4>
+            <p>Monday – Friday: 5:00 AM – 11:00 PM<br>Saturday: 6:00 AM – 10:00 PM<br>Sunday: 7:00 AM – 9:00 PM<br><strong class="text-orange">Pro & Elite: 24/7 Access</strong></p>
+          </div>
+          <div class="contact-info-card">
+            <h4>📞 Contact</h4>
+            <p>Phone: (555) 742-TITAN<br>Email: info@titanfitness.com<br>Instagram: @titanfitness</p>
+          </div>
+          <div class="contact-info-card">
+            <h4>🎁 Free Trial</h4>
+            <p>New to Titan? Get a <strong class="text-orange">free 7-day trial</strong> with full access to all facilities and classes. No credit card needed — just walk in and sign up.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container reveal">
+      <h2>Your Journey Starts <span class="text-orange">Now</span></h2>
+      <p>Don't wait for motivation — create it. Walk through our doors and become a Titan.</p>
+      <a href="membership.html" class="btn btn-primary">View Membership Plans</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Titan <span>Fitness</span></h3>
+          <p>Forging champions since 2018. Push your limits, break barriers, and become the strongest version of yourself.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="about.html">About Us</a>
+          <a href="programs.html">Programs</a>
+          <a href="trainers.html">Trainers</a>
+          <a href="membership.html">Membership</a>
+        </div>
+        <div class="footer-col">
+          <h4>Programs</h4>
+          <a href="programs.html">Strength</a>
+          <a href="programs.html">HIIT</a>
+          <a href="programs.html">Boxing</a>
+          <a href="programs.html">Yoga</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="contact.html">Get In Touch</a>
+          <a href="contact.html">Free Trial</a>
+          <a href="membership.html">Pricing</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Titan Fitness. All rights reserved.</p>
+        <p>Designed by <a href="https://wingfieldgemini.github.io" target="_blank">WingfieldGemini</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
